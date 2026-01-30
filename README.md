@@ -34,13 +34,17 @@ All data used in this project are **publicly available**:
   CHAMP, GRACE, GOCE, SWARM-C
 
 - **Empirical density models**  
-  - JB2008  
-  - NRLMSISE-00  
+  - JB2008 (https://www.mathworks.com/matlabcentral/fileexchange/56163-jacchia-bowman-atmospheric-density-model)
+  - NRLMSISE-00 (https://www.mathworks.com/matlabcentral/fileexchange/56253-nrlmsise-00-atmosphere-model)
 
 - **Solar & geomagnetic indices**
   - F10.7, F10.7A, F30  
   - Dst, Apo30
   - Solar wind parameters (Bz, velocity, proton density, AE)
+ 
+- **Software/External Packages**
+  - CDF reader (https://cdf.gsfc.nasa.gov/)
+  - Evidential deep learning (https://github.com/aamini/evidential-deep-learning)
 
 ⚠️ **Note:** Due to data volume and licensing, raw datasets are **not included** in this repository.
 
