@@ -40,12 +40,13 @@ All data used in this project are **publicly available**:
 
 - **Solar & geomagnetic indices**
   - F10.7, F10.7A, F30  
-  - Dst, Apo30, AE  
-  - Solar wind parameters (Bz, velocity, proton density)
+  - Dst, Apo30
+  - Solar wind parameters (Bz, velocity, proton density, AE)
 
 ⚠️ **Note:** Due to data volume and licensing, raw datasets are **not included** in this repository.
 
 If you use this code or build upon this work, please cite:
+
 Wang, R., Bai, X., et al.  
 A Machine-Learning-Based Global Thermospheric Density Forecasting Model  
 Space Weather, under review.
