@@ -24,7 +24,6 @@ This repository contains the **training, inference, and evaluation pipeline** us
 - Dual recurrent encoders (LSTM-based)
 - Sequence-to-sequence forecasting framework
 - Evidential Normal-Gamma output head
-- Optional auxiliary mean (μ) output for stabilized training
 
 ---
 
