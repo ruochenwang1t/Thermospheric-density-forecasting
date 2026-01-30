@@ -31,7 +31,7 @@ This repository contains the **training, inference, and evaluation pipeline** us
 All data used in this project are **publicly available**:
 
 - **Satellite accelerometer data**  
-  CHAMP, GRACE, GOCE, SWARM-C
+  CHAMP, GRACE, GOCE, SWARM-C (https://swarm-diss.eo.esa.int/)
 
 - **Empirical density models**  
   - JB2008 (https://www.mathworks.com/matlabcentral/fileexchange/56163-jacchia-bowman-atmospheric-density-model)
