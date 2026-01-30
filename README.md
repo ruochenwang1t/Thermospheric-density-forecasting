@@ -44,6 +44,10 @@ All data used in this project are **publicly available**:
 
 ⚠️ **Note:** Due to data volume and licensing, raw datasets are **not included** in this repository.
 
+---
+
+## Citation
+
 If you use this code or build upon this work, please cite:
 
 Wang, R., Bai, X., et al.  
