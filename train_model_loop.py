@@ -45,8 +45,6 @@ for gpu in gpus:
 # ===================== CONFIG =====================
 CONFIG = {
     # ------------------ Dataset split ------------------
-    # You are NOT using VAL_RATIO/TEST_RATIO in this script because you do
-    # fixed per-satellite sequential splits using SAT_VAL_LENGTH and SAT_TEST_LENGTH.
     "SAT_LENGTHS":      [478683, 356913, 176474, 183840],  # CHAMP, GRACE, SWARM-C, GOCE
     "SAT_VAL_LENGTH":   20000,
     "SAT_TEST_LENGTH":  5000,
