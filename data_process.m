@@ -19,7 +19,7 @@
 %       corrections and generalizes across conditions.
 %
 %  Data domains:
-%   - ydata stored in log10(density) (same convention as the rest of your pipeline)
+%   - ydata stored in log10(density)
 %   - Empirical baseline outputs are also stored in log10(density)
 %
 %  Files / dependencies:
@@ -30,7 +30,7 @@
 %  Outputs:
 %   - Output/raw_data.mat       : downsampled raw satellite data table (save_data)
 %   - Output/ydata.mat          : ydata  [Nsamples x n]
-%   - Output/x_hist_data.mat    : x_hist [Nsamples x m x (8 + 2*n)]
+%   - Output/x_hist_data.mat    : x_hist [Nsamples x m x (9 + 2*n)]
 %   - Output/x_fut_data.mat     : x_fut  [Nsamples x n x 9]
 %
 %  Notes:
@@ -102,7 +102,7 @@ input = struct('year',0,'doy',0,'sec',0,'alt',0,'g_lat',0,'g_long',0,'lst',0,'f1
 %  Read and preprocess raw satellite data
 %  - User selects a folder containing raw files.
 %  - CHAMP/GRACE/SWARM: *.cdf
-%  - GOCE            : *.txt (custom parsing)
+%  - GOCE            : *.txt
 %  Output "save_data" is downsampled and saved as Output/raw_data.mat
 %% =========================
 save_data = [];
