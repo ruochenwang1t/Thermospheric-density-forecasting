@@ -54,7 +54,7 @@ All data used in this project are **publicly available**:
 
 If you use this code or build upon this work, please cite:
 
-Wang, R., Bai, X., et al.  
-A Machine-Learning-Based Global Thermospheric Density Forecasting Model  
-Space Weather, under review.
-
+Wang, R., & Bai, X. (2026). 
+A machine‐learning‐based global thermospheric density forecasting model.
+Space Weather, 24, e2026SW004968.
+https://doi.org/10.1029/2026SW004968
